@@ -13,13 +13,13 @@ def div(a, b):
     return a / b
 
 def sin(a,b):
-    return (math.sin(a*3.14/180),math.sin(b*3.14/180))
+    return (math.sin(a*math.pi/180),math.sin(b*math.pi/180))
 
 def cos(a,b):
-    return (math.cos(a*3.14/180),math.cos(b*3.14/180))
+    return (math.cos(a*math.pi/180),math.cos(b*math.pi/180))
 
 def tan(a,b):
-    return (math.tan(a*3.14/180),math.tan(b*3.14/180))
+    return (math.tan(a*math.pi/180),math.tan(b*math.pi/180))
 
 def log(a,b):
     return (math.log(a,b))
@@ -29,7 +29,6 @@ def exp(a,b):
 
 def root(a,b):
     return (math.sqrt(a),math.sqrt(b))
-
 
 if __name__ == "__main__":
     

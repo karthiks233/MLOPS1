@@ -11,6 +11,12 @@ However, values like a: [1,90] and b: [1,90] should work
 
 2. Setup Pytest and Unittest
 
+Built two seperate files names py_test.py and unit_test.py to perform Pytest and Unittest
+
+3. Setup Github Actions
+
+Setup github actions workflows to capture code changes to github repository and automate test workflows.
+
 
 
 
