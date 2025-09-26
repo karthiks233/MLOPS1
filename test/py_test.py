@@ -12,7 +12,7 @@ def test_add():
     assert calculator.add(2.5, 3.5) == 6.0
 
 def test_sub():
-    assert calculator.sub(2, 3) == -2
+    assert calculator.sub(2, 3) == -1
     assert calculator.sub(5, 0) == 5
     assert calculator.sub(-1, 1) == -2
     assert calculator.sub(-1, -1) == 0
