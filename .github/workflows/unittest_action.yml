@@ -22,7 +22,7 @@ jobs:
       run: pip install -r requirements.txt
 
     - name: Run unittests
-      run: python -m unittest test/unit_test
+      run: python -m unittest discover -s test -p 'unit_*.py'
 
     - name: Notify on success
       if: success()
